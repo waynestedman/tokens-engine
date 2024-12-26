@@ -5,10 +5,12 @@
   "type": "module",
   "scripts": {
     "start": "vite",
-    "build": "vite build",
+    "build": "style-dictionary build --config ./config.json",
+    "clean": "rm -rf build",
     "preview": "vite preview"
   },
   "devDependencies": {
+    "style-dictionary": "^4.3.0",
     "vite": "^6.0.5"
   }
 }
