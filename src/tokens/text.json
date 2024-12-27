@@ -2,38 +2,65 @@
   "text": {
     "fonts": {
       "$type": "fontFamily",
-      "serif": {
-        "$value": "Times New Roman, serif"
+      "bitter": {
+        "$value": "Bitter, serif"
       },
-      "sans": {
-        "$value": "Open Sans, sans-serif"
+      "raleway": {
+        "$value": "Raleway, sans-serif"
       }
     },
     "sizes": {
       "$type": "fontSize",
-      "heading": {
-        "$value": "{dimensions.7}"
+      "heading1": {
+        "$value": "{dimensions.72}"
       },
-      "body": {
-        "$value": "{dimensions.4}"
+      "heading2": {
+        "$value": "{dimensions.54}"
+      },
+      "heading3": {
+        "$value": "{dimensions.40}"
+      },
+      "heading4": {
+        "$value": "{dimensions.30}"
+      },
+      "heading5": {
+        "$value": "{dimensions.22}"
+      },
+      "heading6": {
+        "$value": "{dimensions.16}"
+      },
+      "paragraph": {
+        "$value": "{dimensions.16}"
+      },
+      "caption": {
+        "$value": "{dimensions.14}"
+      },
+      "eyebrow": {
+        "$value": "{dimensions.14}"
       }
     },
     "weights": {
       "$type": "fontWeight",
-      "light": {
-        "$value": "thin"
+      "300": {
+        "$value": "300"
       },
-      "regular": {
-        "$value": "regular"
+      "400": {
+        "$value": "400"
       },
-      "bold": {
-        "$value": "extra-bold"
+      "500": {
+        "$value": "500"
+      },
+      "700": {
+        "$value": "700"
       }
     },
     "lineHeights": {
       "$type": "number",
       "normal": {
-        "$value": 1.2
+        "$value": 1.5
+      },
+      "small": {
+        "$value": 1.25
       },
       "large": {
         "$value": 1.8
@@ -41,19 +68,75 @@
     },
     "typography": {
       "$type": "typography",
-      "heading": {
+      "heading1": {
         "$value": {
-          "fontFamily": "{text.fonts.sans}",
-          "fontWeight": "{text.weights.bold}",
-          "fontSize": "{text.sizes.heading}",
-          "lineHeight": "{text.lineHeights.large}"
+          "fontFamily": "{text.fonts.raleway}",
+          "fontWeight": "{text.weights.700}",
+          "fontSize": "{text.sizes.heading1}",
+          "lineHeight": "{text.lineHeights.normal}"
+        }
+      },
+      "heading2": {
+        "$value": {
+          "fontFamily": "{text.fonts.raleway}",
+          "fontWeight": "{text.weights.700}",
+          "fontSize": "{text.sizes.heading2}",
+          "lineHeight": "{text.lineHeights.normal}"
+        }
+      },
+      "heading3": {
+        "$value": {
+          "fontFamily": "{text.fonts.raleway}",
+          "fontWeight": "{text.weights.500}",
+          "fontSize": "{text.sizes.heading3}",
+          "lineHeight": "{text.lineHeights.small}"
+        }
+      },
+      "heading4": {
+        "$value": {
+          "fontFamily": "{text.fonts.raleway}",
+          "fontWeight": "{text.weights.500}",
+          "fontSize": "{text.sizes.heading4}",
+          "lineHeight": "{text.lineHeights.small}"
+        }
+      },
+      "heading5": {
+        "$value": {
+          "fontFamily": "{text.fonts.raleway}",
+          "fontWeight": "{text.weights.500}",
+          "fontSize": "{text.sizes.heading5}",
+          "lineHeight": "{text.lineHeights.normal}"
+        }
+      },
+      "heading6": {
+        "$value": {
+          "fontFamily": "{text.fonts.raleway}",
+          "fontWeight": "{text.weights.500}",
+          "fontSize": "{text.sizes.heading6}",
+          "lineHeight": "{text.lineHeights.normal}"
         }
       },
       "body": {
         "$value": {
-          "fontFamily": "{text.fonts.serif}",
-          "fontWeight": "{text.weights.regular}",
-          "fontSize": "{text.sizes.body}",
+          "fontFamily": "{text.fonts.bitter}",
+          "fontWeight": "{text.weights.400}",
+          "fontSize": "{text.sizes.paragraph}",
+          "lineHeight": "{text.lineHeights.normal}"
+        }
+      },
+      "caption": {
+        "$value": {
+          "fontFamily": "{text.fonts.bitter}",
+          "fontWeight": "{text.weights.300}",
+          "fontSize": "{text.sizes.caption}",
+          "lineHeight": "{text.lineHeights.normal}"
+        }
+      },
+      "eyebrow": {
+        "$value": {
+          "fontFamily": "{text.fonts.raleway}",
+          "fontWeight": "{text.weights.400}",
+          "fontSize": "{text.sizes.eyebrow}",
           "lineHeight": "{text.lineHeights.normal}"
         }
       }
