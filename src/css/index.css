@@ -44,7 +44,7 @@
 
   header {
     text-align: center;
-    background-color: var(--colors-sage-300);
-    color: var(--colors-sage-100);
+    background-color: var(--colors-sage-800);
+    color: var(--colors-cream-100);
     padding: 0.5rem;  
   }
