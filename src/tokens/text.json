@@ -3,10 +3,10 @@
     "fonts": {
       "$type": "fontFamily",
       "bitter": {
-        "$value": "Bitter, serif"
+        "$value": "Bitter"
       },
       "raleway": {
-        "$value": "Raleway, sans-serif"
+        "$value": "Raleway"
       }
     },
     "sizes": {
@@ -65,80 +65,80 @@
       "large": {
         "$value": 1.8
       }
+    }
+  },
+  "typography": {
+    "$type": "typography",
+    "heading1": {
+      "$value": {
+        "fontFamily": "{text.fonts.raleway}",
+        "fontWeight": "{text.weights.700}",
+        "fontSize": "{text.sizes.heading1}",
+        "lineHeight": "{text.lineHeights.normal}"
+      }
     },
-    "typography": {
-      "$type": "typography",
-      "heading1": {
-        "$value": {
-          "fontFamily": "{text.fonts.raleway}",
-          "fontWeight": "{text.weights.700}",
-          "fontSize": "{text.sizes.heading1}",
-          "lineHeight": "{text.lineHeights.normal}"
-        }
-      },
-      "heading2": {
-        "$value": {
-          "fontFamily": "{text.fonts.raleway}",
-          "fontWeight": "{text.weights.700}",
-          "fontSize": "{text.sizes.heading2}",
-          "lineHeight": "{text.lineHeights.normal}"
-        }
-      },
-      "heading3": {
-        "$value": {
-          "fontFamily": "{text.fonts.raleway}",
-          "fontWeight": "{text.weights.500}",
-          "fontSize": "{text.sizes.heading3}",
-          "lineHeight": "{text.lineHeights.small}"
-        }
-      },
-      "heading4": {
-        "$value": {
-          "fontFamily": "{text.fonts.raleway}",
-          "fontWeight": "{text.weights.500}",
-          "fontSize": "{text.sizes.heading4}",
-          "lineHeight": "{text.lineHeights.small}"
-        }
-      },
-      "heading5": {
-        "$value": {
-          "fontFamily": "{text.fonts.raleway}",
-          "fontWeight": "{text.weights.500}",
-          "fontSize": "{text.sizes.heading5}",
-          "lineHeight": "{text.lineHeights.normal}"
-        }
-      },
-      "heading6": {
-        "$value": {
-          "fontFamily": "{text.fonts.raleway}",
-          "fontWeight": "{text.weights.500}",
-          "fontSize": "{text.sizes.heading6}",
-          "lineHeight": "{text.lineHeights.normal}"
-        }
-      },
-      "body": {
-        "$value": {
-          "fontFamily": "{text.fonts.bitter}",
-          "fontWeight": "{text.weights.400}",
-          "fontSize": "{text.sizes.paragraph}",
-          "lineHeight": "{text.lineHeights.normal}"
-        }
-      },
-      "caption": {
-        "$value": {
-          "fontFamily": "{text.fonts.bitter}",
-          "fontWeight": "{text.weights.300}",
-          "fontSize": "{text.sizes.caption}",
-          "lineHeight": "{text.lineHeights.normal}"
-        }
-      },
-      "eyebrow": {
-        "$value": {
-          "fontFamily": "{text.fonts.raleway}",
-          "fontWeight": "{text.weights.400}",
-          "fontSize": "{text.sizes.eyebrow}",
-          "lineHeight": "{text.lineHeights.normal}"
-        }
+    "heading2": {
+      "$value": {
+        "fontFamily": "{text.fonts.raleway}",
+        "fontWeight": "{text.weights.700}",
+        "fontSize": "{text.sizes.heading2}",
+        "lineHeight": "{text.lineHeights.normal}"
+      }
+    },
+    "heading3": {
+      "$value": {
+        "fontFamily": "{text.fonts.raleway}",
+        "fontWeight": "{text.weights.500}",
+        "fontSize": "{text.sizes.heading3}",
+        "lineHeight": "{text.lineHeights.small}"
+      }
+    },
+    "heading4": {
+      "$value": {
+        "fontFamily": "{text.fonts.raleway}",
+        "fontWeight": "{text.weights.500}",
+        "fontSize": "{text.sizes.heading4}",
+        "lineHeight": "{text.lineHeights.small}"
+      }
+    },
+    "heading5": {
+      "$value": {
+        "fontFamily": "{text.fonts.raleway}",
+        "fontWeight": "{text.weights.500}",
+        "fontSize": "{text.sizes.heading5}",
+        "lineHeight": "{text.lineHeights.normal}"
+      }
+    },
+    "heading6": {
+      "$value": {
+        "fontFamily": "{text.fonts.raleway}",
+        "fontWeight": "{text.weights.500}",
+        "fontSize": "{text.sizes.heading6}",
+        "lineHeight": "{text.lineHeights.normal}"
+      }
+    },
+    "body": {
+      "$value": {
+        "fontFamily": "{text.fonts.bitter}",
+        "fontWeight": "{text.weights.400}",
+        "fontSize": "{text.sizes.paragraph}",
+        "lineHeight": "{text.lineHeights.normal}"
+      }
+    },
+    "caption": {
+      "$value": {
+        "fontFamily": "{text.fonts.bitter}",
+        "fontWeight": "{text.weights.300}",
+        "fontSize": "{text.sizes.caption}",
+        "lineHeight": "{text.lineHeights.normal}"
+      }
+    },
+    "eyebrow": {
+      "$value": {
+        "fontFamily": "{text.fonts.raleway}",
+        "fontWeight": "{text.weights.400}",
+        "fontSize": "{text.sizes.eyebrow}",
+        "lineHeight": "{text.lineHeights.normal}"
       }
     }
   }

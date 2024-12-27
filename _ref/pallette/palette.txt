@@ -1,0 +1,35 @@
+/* Coolors Exported Palette - https://coolors.co/ece9e4-d8d0c5-1f1f1d-aeb2b0-41403e */
+
+- Tailwind
+
+{ 'isabelline': { DEFAULT: '#ECE9E4', 100: '#363027', 200: '#6d614d', 300: '#9f9078', 400: '#c5bcae', 500: '#ece9e4', 600: '#f0edea', 700: '#f4f2ef', 800: '#f7f6f4', 900: '#fbfbfa' }, 'timberwolf': { DEFAULT: '#D8D0C5', 100: '#322b21', 200: '#635542', 300: '#958063', 400: '#b7a893', 500: '#d8d0c5', 600: '#e0dad0', 700: '#e8e3dc', 800: '#efece8', 900: '#f7f6f3' }, 'eerie_black': { DEFAULT: '#1F1F1D', 100: '#060606', 200: '#0d0d0c', 300: '#131312', 400: '#191918', 500: '#1f1f1d', 600: '#4e4e49', 700: '#7c7c75', 800: '#a8a8a3', 900: '#d3d3d1' }, 'silver': { DEFAULT: '#AEB2B0', 100: '#222423', 200: '#444846', 300: '#666d6a', 400: '#89908d', 500: '#aeb2b0', 600: '#bec2c0', 700: '#ced1d0', 800: '#dee0df', 900: '#eff0ef' }, 'black_olive': { DEFAULT: '#41403E', 100: '#0d0d0c', 200: '#1a1a19', 300: '#272725', 400: '#343332', 500: '#41403e', 600: '#686764', 700: '#8f8d8a', 800: '#b4b3b1', 900: '#dad9d8' } }
+
+- CSV
+
+ECE9E4,D8D0C5,1F1F1D,AEB2B0,41403E
+
+- With #
+
+#ECE9E4, #D8D0C5, #1F1F1D, #AEB2B0, #41403E
+
+- Array
+
+["ECE9E4","D8D0C5","1F1F1D","AEB2B0","41403E"]
+
+- Object
+
+{"Isabelline":"ECE9E4","Timberwolf":"D8D0C5","Eerie black":"1F1F1D","Silver":"AEB2B0","Black olive":"41403E"}
+
+- Extended Array
+
+[{"name":"Isabelline","hex":"ECE9E4","rgb":[236,233,228],"cmyk":[0,1,3,7],"hsb":[37,3,93],"hsl":[37,17,91],"lab":[92,0,3]},{"name":"Timberwolf","hex":"D8D0C5","rgb":[216,208,197],"cmyk":[0,4,9,15],"hsb":[35,9,85],"hsl":[35,20,81],"lab":[84,1,6]},{"name":"Eerie black","hex":"1F1F1D","rgb":[31,31,29],"cmyk":[0,0,6,88],"hsb":[60,6,12],"hsl":[60,3,12],"lab":[12,0,1]},{"name":"Silver","hex":"AEB2B0","rgb":[174,178,176],"cmyk":[2,0,1,30],"hsb":[150,2,70],"hsl":[150,3,69],"lab":[72,-2,1]},{"name":"Black olive","hex":"41403E","rgb":[65,64,62],"cmyk":[0,2,5,75],"hsb":[40,5,25],"hsl":[40,2,25],"lab":[27,0,1]}]
+
+- XML
+
+<palette>
+  <color name="Isabelline" hex="ECE9E4" r="236" g="233" b="228" />
+  <color name="Timberwolf" hex="D8D0C5" r="216" g="208" b="197" />
+  <color name="Eerie black" hex="1F1F1D" r="31" g="31" b="29" />
+  <color name="Silver" hex="AEB2B0" r="174" g="178" b="176" />
+  <color name="Black olive" hex="41403E" r="65" g="64" b="62" />
+</palette>

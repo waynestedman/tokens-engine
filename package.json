@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "vite",
-    "build": "style-dictionary build --config ./config.json",
+    "build": "style-dictionary build -v --config ./config.json",
     "clean": "rm -rf build",
     "preview": "vite preview"
   },

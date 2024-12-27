@@ -1,48 +1,7 @@
-:root {
-  /* variables/tokens */
-    --color-white: #ffffff;
-    --color-gray100: #F7F7F7;
-    --color-gray200: #DFDFDF;
-    --color-gray300: #C6C6C6;
-    --color-gray400: #ADADAD;
-    --color-gray500: #949494;
-    --color-gray600: #7C7C7C;
-    --color-gray700: #636363;
-    --color-gray800: #4A4A4A;
-    --color-gray900: #313131;
-    --color-gray1000: #191919;
-    --color-black: #000000;
-    --color-emerald50: #DFF0EE;
-    --color-emerald100: #B0DBD5;
-    --color-emerald200: #7DC4BA;
-    --color-emerald300: #4AAC9E;
-    --color-emerald400: #259B8B;
-    --color-emerald500: #028A78;
-    --color-emerald600: #017D6C;
-    --color-emerald700: #016E5D;
-    --color-emerald800: #005E4F; 
-    --color-emerald900: #004334;
-    --color-brown50: #FAEBE5; 
-    --color-brown100: #F1CEBD; 
-    --color-brown200: #E49C7B;
-    --color-brown300: #D66B39;
-    --color-brown400: #9F4921;
-    --color-brown500: #5D2813; 
-    --color-brown600: #411E0D;
-    --color-brown700: #2F150A;
-    --color-brown800: #1C0D06;
-    --color-brown900: #090402;
-    --type-paragraph: 400 16px/1.5 Bitter;
-    --type-caption: 300 14px/1.5 Bitter;
-    --type-eyebrow: 400 14px/1.5 Raleway;
-    --type-heading1: 700 72px/1.5 Raleway;
-    --type-heading2: 700 54px/1.5 Raleway;
-    --type-heading3: 500 40px/1.25 Raleway;
-    --type-heading4: 500 30px/1.25 Raleway;
-    --type-heading5: 500 22px/1.5 Raleway;
-    --type-heading6: 500 16px/1.5 Raleway;
-  }
-  /* resets and defaults */
+/* index.css */
+@import 'variables.css';
+
+/* resets and defaults */
   * {
     margin: 0;
     padding: 0;
@@ -54,37 +13,38 @@
   }
   
   body {
-    font: var(--type-paragraph);
-    color: var(--color-brown600);
+    font: var(--typography-body);
+    color: var(--colors-gray-100);
+    background-color: var(--colors-gray-500);
   }
   h1 {
-    font: var(--type-heading1);
+    font: var(--typography-heading1);
   }
   h2 {
-    font: var(--type-heading2);
+    font: var(--typography-heading2);
   }
   h3 {
-    font: var(--type-heading3);
+    font: var(--typography-heading3);
   }
   h4 {
-    font: var(--type-heading4);
+    font: var(--typography-heading4);
   }
   h5 {
-    font: var(--type-heading5);
+    font: var(--typography-heading5);
   }
   h6 {
-    font: var(--type-heading6);
+    font: var(--typography-heading6);
   }
   caption {
-    font: var(--type-caption);
+    font: var(--typography-caption);
   }
   .eyebrow {
-    font: var(--type-eyebrow);
+    font: var(--typography-eyebrow);
   }
 
   header {
     text-align: center;
-    background-color: var(--color-emerald500);
-    color: var(--color-white);
+    background-color: var(--colors-sage-300);
+    color: var(--colors-sage-100);
     padding: 0.5rem;  
   }
