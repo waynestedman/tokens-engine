@@ -1,0 +1,48 @@
+{
+  "$schema": "https://design-tokens.org/schemas/2025-10/tokens.json",
+  "$version": "2025.10",
+  "colors": {
+    "purple": {
+      "purple-50": {
+        "$type": "color",
+        "$value": "#FBFAFF"
+      },
+      "purple-100": {
+        "$type": "color",
+        "$value": "#E6DAFE"
+      },
+      "purple-200": {
+        "$type": "color",
+        "$value": "#CFBAF5"
+      },
+      "purple-300": {
+        "$type": "color",
+        "$value": "#B899F1"
+      },
+      "purple-400": {
+        "$type": "color",
+        "$value": "#9F76EC"
+      },
+      "purple-500": {
+        "$type": "color",
+        "$value": "#6F32E2"
+      },
+      "purple-600": {
+        "$type": "color",
+        "$value": "#601FDA"
+      },
+      "purple-700": {
+        "$type": "color",
+        "$value": "#3F148F"
+      },
+      "purple-800": {
+        "$type": "color",
+        "$value": "#190838"
+      },
+      "purple-900": {
+        "$type": "color",
+        "$value": "#030107"
+      }
+    }
+  }
+}
